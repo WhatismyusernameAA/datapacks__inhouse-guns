@@ -11,8 +11,18 @@
             "weight": 16,
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Tempered Iron Ingot\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Ingredients\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"Hard enough to.. contain small explosions?\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:1,CustomItem:\"3cs_guns:tempered_iron\"}"
+                "function": "minecraft:set_components",
+                "components": {
+                  "item_name": "\"Tempered Iron Ingot\"",
+                  "minecraft:lore": [
+                    "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+                    "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Could be strong enough to contain bursts of energy..?\"}"
+                  ],
+                  "minecraft:custom_model_data": 1,
+                  "minecraft:custom_data": "{custom_item:\"inhouse_guns:tempered_iron_ingot\"}",
+                  "minecraft:rarity": "common",
+                  "!block_state": {}
+                }
               },
               {
                 "function": "minecraft:set_count",
