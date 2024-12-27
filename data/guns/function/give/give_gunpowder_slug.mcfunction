@@ -1,0 +1,1 @@
+give @s command_block[rarity="common",item_name='"Gunpowder Slug"',lore=['{"color":"blue","italic":true,"text":"Inhouse Guns"}','{"color":"dark_gray","italic":false,"text":"Used in gunpowder-propelled firearms."}'],custom_model_data=3,custom_data={custom_item:"inhouse_guns:gunpowder_slug"},block_state={}] 1

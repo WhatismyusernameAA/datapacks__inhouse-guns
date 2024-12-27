@@ -1,0 +1,34 @@
+{
+    "values": [
+        "air",
+        "void_air",
+        "cave_air",
+
+        "water",
+        "lava",
+        "powder_snow",
+
+        "tall_grass",
+        "short_grass",
+        "fern",
+        "large_fern",
+
+        "dead_bush",
+        "rose_bush",
+        
+        "#wooden_buttons",
+        "#small_flowers",
+        "#wooden_trapdoors",
+        "#slabs",
+        "#wool_carpets",
+        
+        "snow",
+        "glow_lichen",
+        "sculk_vein",
+        "chain",
+
+        "#minecraft:rails",
+
+        "#guns:gun_breakable"
+    ]
+}

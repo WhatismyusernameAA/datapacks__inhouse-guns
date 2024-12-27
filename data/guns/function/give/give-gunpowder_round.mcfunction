@@ -1,0 +1,1 @@
+give @s command_block[rarity="common",item_name='"Gunpowder Round"',lore=['{"color":"blue","italic":true,"text":"Inhouse Guns"}','{"color":"dark_gray","italic":false,"text":"Used in gunpowder-propelled firearms."}'],custom_model_data=1,custom_data={custom_item:"inhouse_guns:gunpowder_round"},block_state={}] 1

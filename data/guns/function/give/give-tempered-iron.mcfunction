@@ -1,0 +1,1 @@
+give @s repeating_command_block[item_name='"Tempered Iron Ingot"',lore=['{"color":"blue","italic":true,"text":"Inhouse Guns"}','{"color":"dark_gray","italic":false,"text":"Hard enough to.. contain small explosions?"}'],hide_additional_tooltip={},rarity="common",custom_model_data=1,custom_data={custom_item:"inhouse_guns:tempered_iron_ingot"}] 1
