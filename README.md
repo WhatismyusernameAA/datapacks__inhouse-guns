@@ -1,5 +1,5 @@
-# INHOUSE GUNS VF (1.21.2)
----
+# INHOUSE GUNS (1.21.2)
+*version: 1.0*
 
 This datapack adds craftable (vanilla friendly, I hope) guns to minecraft, as well as a few other mechanics related to them.
 
@@ -9,6 +9,9 @@ This datapack is still very much a work in progress, and updates will be slow an
 - Powder Rifle
 - Scattergun
 
-*To be added later:*
+*To be added:*
 - Bamboo Hand Cannon
 - Precision Revolver
+- Augments/Enchantments (For progression?)
+- Ranger Hut (For descovering new augments, as well as to obtain weapons)
+- Nether Forge
