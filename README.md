@@ -1,5 +1,5 @@
 # INHOUSE GUNS (1.21.2)
-*version: 1.0*
+### *version: 1.0*
 
 This datapack adds craftable (vanilla friendly, I hope) guns to minecraft, as well as a few other mechanics related to them.
 
