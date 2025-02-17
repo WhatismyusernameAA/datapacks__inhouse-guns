@@ -1,0 +1,14 @@
+[
+	{
+	  "function": "set_custom_model_data",
+	  "strings": {
+		"mode": "replace_section",
+		"size": 1,
+		"offset": 1,
+		"values": [
+			"_aiming"
+		]
+	  }
+	}
+]
+  

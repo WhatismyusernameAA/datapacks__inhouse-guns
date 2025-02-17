@@ -1,0 +1,62 @@
+{
+    "hand_animation_on_swap" : true,
+    "model": {
+        "type": "minecraft:select",
+        "property": "custom_model_data",
+        "index": 0,
+        "cases": [
+            {
+                "when": "inhouse_guns:powder_rifle",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "cases": [
+                        {
+                            "when": "_idle",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/guns/powder_rifle"
+                            }
+                        },
+                        {
+                            "when": "_aiming",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/guns/powder_rifle_aiming"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "inhouse_guns:scattergun",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "cases": [
+                        {
+                            "when": "_idle",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/guns/scattergun"
+                            }
+                        },
+                        {
+                            "when": "_aiming",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/guns/scattergun_aiming"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/carrot_on_a_stick"
+        }
+    }
+}

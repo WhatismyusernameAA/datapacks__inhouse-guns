@@ -1,0 +1,53 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "when": "inhouse_guns:gunpowder_round",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/gunpowder_round"
+                }
+            },
+            {
+                "when": "inhouse_guns:gunpowder_shot",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/gunpowder_shot"
+                }
+            },
+            {
+                "when": "inhouse_guns:gunpowder_slug",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/gunpowder_slug"
+                }
+            },
+            {
+                "when": "inhouse_guns:bamboo_cartridge",
+                "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                        {
+                            "threshold": 0.1,
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/bamboo_cartridge_use"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "inhouse_guns:item/bamboo_cartridge"
+                    }
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "block/command_block"
+        }
+    }
+}

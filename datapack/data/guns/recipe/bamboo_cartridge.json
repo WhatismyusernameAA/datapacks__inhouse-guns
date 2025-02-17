@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "gunpowder",
+    "bamboo",
+    "string",
+    "iron_nugget"
+  ],
+  "result": {
+    "id": "minecraft:command_block",
+    "count": 1,
+    "components": {
+      "max_stack_size": 1,
+      "minecraft:custom_data": "{custom_item:\"inhouse_guns:bamboo_cartridge\"}",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "inhouse_guns:bamboo_cartridge"
+        ]
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 1.2
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1,
+        "animation": "bow",
+        "sound": "minecraft:block.note_block.hat",
+        "has_consume_particles": false
+      },
+      "minecraft:item_name": "\"Bamboo Cartridge\"",
+      "minecraft:lore": [
+        "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+        "{\"color\":\"dark_gray\",\"text\":\"\\\"Do not use if you value your fingers.\\\"\"}",
+        "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Hold use to fire. Single shot only.\"}"
+      ],
+      "minecraft:rarity": "common"
+    }
+  }
+}

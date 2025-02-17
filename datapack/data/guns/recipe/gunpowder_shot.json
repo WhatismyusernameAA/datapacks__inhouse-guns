@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:rarity":"common",
+      "minecraft:item_name": "\"Gunpowder Shot\"",
+      "minecraft:lore": [
+        "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+        "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Used in gunpowder-propelled firearms.\"}"
+      ],
+      "minecraft:custom_model_data": {
+        "strings": [
+          "inhouse_guns:gunpowder_shot"
+        ]
+      },
+      "minecraft:custom_data": "{custom_item:\"inhouse_guns:gunpowder_shot\"}",
+      "!minecraft:block_state": {}
+    },
+    "count": 1
+  }
+}

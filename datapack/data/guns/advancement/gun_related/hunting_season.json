@@ -1,0 +1,54 @@
+{
+    "parent": "minecraft:adventure/shoot_arrow",
+    "criteria": {
+      "killed_skeleton": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#guns:aerial_creatures",
+                "distance": {
+                  "y": {
+                    "min": 10
+                  }
+                }
+              }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "guns:from_ranged_weapon"
+              }
+            ]
+          }
+        },
+        "trigger": "minecraft:player_killed_entity"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Shoot down a creature from the sky."
+      },
+      "frame": "challenge",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:phantom_membrane"
+      },
+      "title": {
+        "text": "Hunting Season"
+      }
+    },
+    "requirements": [
+      [
+        "killed_skeleton"
+      ]
+    ],
+    "rewards": {
+      "experience": 50
+    },
+    "sends_telemetry_event": true
+  }

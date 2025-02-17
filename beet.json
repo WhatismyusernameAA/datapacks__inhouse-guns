@@ -1,0 +1,29 @@
+{
+    "name": "Inhouse Guns",
+    "author": "TCORInHouse",
+    "description": "developing extra bombastic features for minecraft.",
+    "version": "1.2",
+    "data_pack": {
+        "load": ["datapack"],
+        "pack_format": 61,
+        "zipped": true
+    },
+    "resource_pack": {
+        "load": ["resourcepack"],
+        "pack_format": 46,
+        "zipped": true
+    },
+    "output": "../builds",
+    "require": [
+        "bolt"
+    ],
+    "meta": {
+        "bolt": {
+            "entrypoint" : ["inhouse-guns"]
+        }
+    },
+
+    "pipeline": [
+        "mecha"
+    ]
+}

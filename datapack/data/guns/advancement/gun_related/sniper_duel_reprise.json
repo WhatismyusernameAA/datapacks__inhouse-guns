@@ -1,0 +1,61 @@
+{
+    "parent": "minecraft:adventure/sniper_duel",
+    "criteria": {
+      "killed_skeleton": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:skeleton",
+                "distance": {
+                  "horizontal": {
+                    "min": 70
+                  }
+                }
+              }
+            }
+          ],
+          "killing_blow": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "guns:from_raycast"
+              }
+            ]
+          }
+        },
+        "trigger": "minecraft:player_killed_entity"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Kill a skeleton from at least 70 meters away."
+      },
+      "frame": "challenge",
+      "icon": {
+        "components": {
+          "minecraft:custom_model_data": {
+            "strings": [
+              "inhouse_guns:gunpowder_round"
+            ]
+          }
+        },
+        "count": 1,
+        "id": "minecraft:command_block"
+      },
+      "title": {
+        "text": "Sniper Duel (Reprise)"
+      }
+    },
+    "requirements": [
+      [
+        "killed_skeleton"
+      ]
+    ],
+    "rewards": {
+      "experience": 50
+    },
+    "sends_telemetry_event": true
+  }

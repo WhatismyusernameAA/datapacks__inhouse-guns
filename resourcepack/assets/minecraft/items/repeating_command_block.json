@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "when": "inhouse_guns:tempered_iron",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/tempered_iron_ingot"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/repeating_command_block"
+        }
+    }
+}

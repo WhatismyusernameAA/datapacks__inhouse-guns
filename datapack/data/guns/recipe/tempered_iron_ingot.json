@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:blasting",
+    "category" : "misc",
+    "ingredient": [
+      "minecraft:iron_ingot"
+    ],
+    "result": {
+      "id": "minecraft:repeating_command_block",
+      "components": {
+        "item_name": "\"Tempered Iron Ingot\"",
+        "minecraft:lore": [
+          "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+          "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Could be strong enough to contain bursts of energy..?\"}"
+        ],
+        "minecraft:custom_model_data": {
+          "strings": [
+            "inhouse_guns:tempered_iron"
+          ]
+        },
+        "minecraft:custom_data": "{custom_item:\"inhouse_guns:tempered_iron_ingot\"}",
+        "minecraft:rarity": "common",
+        "!block_state": {}
+      }
+    },
+    "experience": 0.1,
+    "cookingtime": 200
+}

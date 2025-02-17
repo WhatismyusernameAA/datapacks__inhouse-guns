@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "used_pistol": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items" : "command_block",
+                    "components": {
+                        "custom_data": "{custom_item:\"inhouse_guns:bamboo_cartridge\"}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "guns:guns/bamboo_cartridge/cartridge_fire"
+    }
+}
