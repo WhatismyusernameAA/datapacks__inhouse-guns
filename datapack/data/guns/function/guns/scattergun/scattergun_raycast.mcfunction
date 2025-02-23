@@ -1,5 +1,6 @@
 # INTERACTIONS W. ENTITIES
-execute as @e[type=!#guns:gun_undamageable,dx=2, dy=2, dz=2,tag=!gwp__shot,sort=nearest] at @s run function guns:guns/scattergun/penetrate-effects
+## so turns out I've been doing dx/dy/dz wrong.. since it's a box selector I need to add an offset!
+execute positioned ~-2 ~-2 ~-2 as @e[type=!#guns:gun_undamageable,dx=2, dy=2, dz=2,tag=!gwp__shot,sort=nearest] at @s run function guns:guns/scattergun/penetrate-effects
 
 # detract from range
 scoreboard players remove @s gwp__gun-range 1

@@ -1,5 +1,5 @@
 # INTERACTIONS W. ENTITIES
-execute as @e[type=!#guns:gun_undamageable,dx=0, dy=0, dz=0,tag=!gwp__shot,sort=nearest,limit=1] at @s run function guns:guns/powder-rifle/penetrate-effects
+execute positioned ~-0.1 ~-0.1 ~-0.1 as @e[type=!#guns:gun_undamageable,dx=0.1, dy=0.1, dz=0.1,tag=!gwp__shot,sort=nearest,limit=1] at @s run function guns:guns/powder-rifle/penetrate-effects
 
 # detract from range
 scoreboard players remove @s gwp__gun-range 1

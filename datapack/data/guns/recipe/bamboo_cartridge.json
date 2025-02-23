@@ -10,7 +10,7 @@
     "id": "minecraft:command_block",
     "count": 1,
     "components": {
-      "max_stack_size": 1,
+      "max_stack_size": 16,
       "minecraft:custom_data": "{custom_item:\"inhouse_guns:bamboo_cartridge\"}",
       "minecraft:custom_model_data": {
         "strings": [

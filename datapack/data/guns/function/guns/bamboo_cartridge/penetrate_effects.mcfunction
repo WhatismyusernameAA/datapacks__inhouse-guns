@@ -1,6 +1,6 @@
 # copied from rifle code
 
-damage @s 8 guns:gun_shot by @p[tag=gwp__shot]
+damage @s 10 guns:gun_shot by @p[tag=gwp__shot]
 
 # decrease range per shot hit
 # scoreboard players remove @p[tag=gwp__shot] gwp__gun-range 20
