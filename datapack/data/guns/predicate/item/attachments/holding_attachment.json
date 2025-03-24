@@ -1,0 +1,61 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "minecraft:carrot_on_a_stick",
+                        "components": {
+                            "minecraft:custom_data": "{custom_item:\"inhouse_guns:bayonet\"}"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "minecraft:carrot_on_a_stick",
+                        "components": {
+                            "minecraft:custom_data": "{custom_item:\"inhouse_guns:long_barrel\"}"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "minecraft:carrot_on_a_stick",
+                        "components": {
+                            "minecraft:custom_data": "{custom_item:\"inhouse_guns:screwdriver\"}"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "minecraft:carrot_on_a_stick",
+                        "components": {
+                            "minecraft:custom_data": "{custom_item:\"inhouse_guns:silencer\"}"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

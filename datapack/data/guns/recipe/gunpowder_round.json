@@ -23,6 +23,6 @@
       "minecraft:custom_data": "{custom_item:\"inhouse_guns:gunpowder_round\"}",
       "!minecraft:block_state": {}
     },
-    "count": 1
+    "count": 4
   }
 }

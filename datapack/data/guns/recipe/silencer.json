@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#RR"
+    ],
+    "key": {
+        "#": "minecraft:feather",
+        "R": "minecraft:repeating_command_block"
+    },
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "components": {
+            "rarity": "common",
+            "item_name": "\"Silencer\"",
+            "lore": [
+                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Attachment. Hold weapon in offhand to attach.\"}"
+            ],
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "inhouse_guns:silencer"
+                ]
+            },
+            "minecraft:custom_data": "{custom_item:\"inhouse_guns:silencer\"}"
+        }
+    }
+}

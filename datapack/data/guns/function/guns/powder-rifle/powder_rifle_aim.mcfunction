@@ -1,4 +1,6 @@
-function guns:guns/main/aim_zoom
+execute unless predicate guns:item/attachments/has_long_barrel run function guns:guns/main/aim_zoom
+execute if predicate guns:item/attachments/has_long_barrel run function guns:guns/powder-rifle/powder_rifle_aim_zoom
+
 scoreboard players set @s gwp__gun-cooldown 10
 
 ## EFFECTS

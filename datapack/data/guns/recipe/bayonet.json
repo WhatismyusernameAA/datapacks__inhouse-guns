@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "#",
+        "/"
+    ],
+    "key": {
+        "#": "minecraft:repeating_command_block",
+        "/": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "components": {
+            "rarity": "common",
+            "item_name": "\"Bayonet\"",
+            "lore": [
+                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Attachment. Hold weapon in offhand to attach.\"}"
+            ],
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "inhouse_guns:bayonet"
+                ]
+            },
+            "minecraft:custom_data": "{custom_item:\"inhouse_guns:bayonet\"}",
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "id": "minecraft:bayonet_mod",
+                        "slot": "mainhand",
+                        "operation": "add_value",
+                        "amount": 5,
+                        "type": "minecraft:attack_damage"
+                    },
+                    {
+                        "id": "minecraft:bayonet_mod",
+                        "slot": "mainhand",
+                        "operation": "add_value",
+                        "amount": -2.4,
+                        "type": "attack_speed"
+                    }
+                ]
+            }
+        }
+    }
+}

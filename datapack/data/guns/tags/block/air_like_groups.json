@@ -28,6 +28,7 @@
         "chain",
 
         "#minecraft:rails",
+        "minecraft:target",
 
         "#guns:gun_breakable"
     ]

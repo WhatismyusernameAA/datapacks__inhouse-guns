@@ -1,0 +1,39 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "attachment" : {
+                    "type": "none"
+                }
+            }
+        },
+        {
+            "function": "set_lore",
+            "lore": [
+                {"color":"dark_gray","italic": false,"text":"Attachments: None"}
+            ],
+            "mode": "replace_section",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "function": "set_custom_model_data",
+            "strings": {
+                "mode": "replace_section",
+                "values": [
+                    "inhouse_guns:generic"
+                ],
+                "offset": 2,
+                "size": 1
+            }
+        },
+        {
+            "function": "set_attributes",
+            "modifiers": [
+            ],
+            "replace": true
+        }
+    ]
+}

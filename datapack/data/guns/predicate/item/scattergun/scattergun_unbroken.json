@@ -8,9 +8,14 @@
           "equipment": {
             "offhand": {
               "items": "minecraft:carrot_on_a_stick",
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": "{custom_item:\"inhouse_guns:scattergun\"}",
-                "minecraft:damage": 486
+                "minecraft:damage": {
+                  "damage": {
+                    "min": 0,
+                    "max": 485
+                  }
+                }
               }
             }
           }

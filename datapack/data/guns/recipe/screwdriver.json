@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "c",
+        "R"
+    ],
+    "key": {
+        "c": "minecraft:copper_ingot",
+        "R": "minecraft:repeating_command_block"
+    },
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "components": {
+            "rarity": "common",
+            "item_name": "\"Screwdriver\"",
+            "lore": [
+                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Used to remove attachments. Hold weapon in offhand to use.\"}"
+            ],
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "inhouse_guns:screwdriver"
+                ]
+            },
+            "minecraft:custom_data": "{custom_item:\"inhouse_guns:screwdriver\"}"
+        }
+    }
+}

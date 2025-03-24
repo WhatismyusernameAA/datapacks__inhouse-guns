@@ -13,5 +13,6 @@ particle minecraft:smoke ~ ~ ~ 1 1 1 0.01 3 normal
 # INTERACTIONS W. BLOCKS
 # break gun-breakable blocks, pass through air-like blocks
 execute if block ~ ~ ~ minecraft:tnt run function guns:guns/scattergun/scattergun_interact_tnt
+execute if block ~ ~ ~ minecraft:target run function guns:guns/scattergun/scattergun_interact_targetblock
 fill ~ ~ ~ ~ ~ ~ air replace #guns:gun_breakable
 execute if score @s gwp__gun-range matches 0.. positioned ^ ^ ^1 if block ~ ~ ~ #guns:air_like_groups run function guns:guns/scattergun/scattergun_raycast

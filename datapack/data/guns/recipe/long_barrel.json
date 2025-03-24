@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        " # ",
+        "#  "
+    ],
+    "key": {
+        "#": "minecraft:repeating_command_block"
+    },
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "components": {
+            "rarity": "common",
+            "item_name": "\"Extended Barrel\"",
+            "lore": [
+                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Attachment. Hold weapon in offhand to attach.\"}"
+            ],
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "inhouse_guns:long_barrel"
+                ]
+            },
+            "minecraft:custom_data": "{custom_item:\"inhouse_guns:long_barrel\"}"
+        }
+    }
+}

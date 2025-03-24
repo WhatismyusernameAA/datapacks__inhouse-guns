@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[rarity="common",lore=['{"color":"blue","italic":true,"text":"Inhouse Guns"}','{"color":"dark_gray","italic":false,"text":"Attachment. Hold weapon in offhand to attach."}'],custom_model_data={strings:["inhouse_guns:silencer"]},custom_data={custom_item:"inhouse_guns:silencer"},item_name='"Silencer"'] 1

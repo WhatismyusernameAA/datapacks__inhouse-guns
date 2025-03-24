@@ -52,6 +52,34 @@
                         }
                     ]
                 }
+            },
+            {
+                "when": "inhouse_guns:long_barrel",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/long_barrel"
+                }
+            },
+            {
+                "when": "inhouse_guns:silencer",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/silencer"
+                }
+            },
+            {
+                "when": "inhouse_guns:bayonet",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/bayonet"
+                }
+            },
+            {
+                "when": "inhouse_guns:screwdriver",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/screwdriver"
+                }
             }
         ],
         "fallback": {

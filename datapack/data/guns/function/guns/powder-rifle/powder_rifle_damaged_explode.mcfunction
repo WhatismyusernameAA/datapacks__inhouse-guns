@@ -9,4 +9,4 @@ particle minecraft:angry_villager ^ ^1.2 ^1 0.5 0.5 0.5 1 3 normal
 
 
 execute if predicate guns:item/powder_rifle/powder_rifle_holding unless predicate guns:item/powder_rifle/powder_rifle_holding_offhand run item replace entity @s weapon.mainhand with air
-execute if predicate guns:item/powder_rifle/powder_rifle_holding_offhand unless predicate guns:item/powder_rifle/powder_rifle_holding run item replace entity @s weapon.offhand with air
+execute if predicate guns:item/powder_rifle/powder_rifle_holding_offhand run item replace entity @s weapon.offhand with air

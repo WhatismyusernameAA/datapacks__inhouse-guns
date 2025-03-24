@@ -13,20 +13,9 @@ tp ~ ~0.1 ~
 
 # set maximum range
 scoreboard players set @s gwp__gun-range 80
+execute if predicate guns:item/attachments/has_long_barrel run scoreboard players set @s gwp__gun-range 120
 
 # add "did shot" tag, and then set raycast;
 tag @s add gwp__shot
 execute at @s positioned ^ ^ ^1.4 anchored eyes run function guns:guns/powder-rifle/raycast
 tag @s remove gwp__shot
-
-# remove bullet from inventory
-clear @s command_block[custom_data={custom_item:"inhouse_guns:gunpowder_round"}] 1
-
-# modify durability of rifle
-execute if predicate guns:item/powder_rifle/powder_rifle_holding unless predicate guns:item/powder_rifle/powder_rifle_holding_offhand run item modify entity @s weapon.mainhand guns:item/powder_rifle/decrease_durability
-execute if predicate guns:item/powder_rifle/powder_rifle_holding_offhand run item modify entity @s weapon.offhand guns:item/powder_rifle/decrease_durability
-
-execute if predicate guns:item/powder_rifle/powder_rifle_damaged run function guns:guns/powder-rifle/powder_rifle_damaged_explode
-
-#rifle cooldown
-scoreboard players set @s gwp__gun-cooldown -40

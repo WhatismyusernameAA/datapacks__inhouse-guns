@@ -1,0 +1,53 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "attachment" : {
+                    "type" : "inhouse_guns:bayonet"
+                }
+            }
+        },
+        {
+            "function": "set_lore",
+            "lore": [
+                {"color":"blue","italic": false,"text":"Attachments: Bayonet"}
+            ],
+            "mode": "replace_section",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "function": "set_custom_model_data",
+            "strings": {
+                "mode": "replace_section",
+                "values": [
+                    "inhouse_guns:bayonet"
+                ],
+                "offset": 2,
+                "size": 1
+            }
+        },
+        {
+            "function": "set_attributes",
+            "modifiers": [
+                {
+                    "attribute": "attack_damage",
+                    "id": "bayonet_mod",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "attribute": "minecraft:attack_speed",
+                    "id": "bayonet_mod",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ],
+            "replace": true
+        }
+    ]
+}

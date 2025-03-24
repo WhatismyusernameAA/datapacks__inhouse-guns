@@ -1,0 +1,14 @@
+{
+    "layers": {
+      "humanoid": [
+        {
+          "texture": "inhouse_guns:tempered_iron"
+        }
+      ],
+      "humanoid_leggings": [
+        {
+          "texture": "inhouse_guns:tempered_iron"
+        }
+      ]
+    }
+  }

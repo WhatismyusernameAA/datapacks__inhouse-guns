@@ -1,0 +1,76 @@
+{
+    "function": "sequence",
+    "functions": [
+      {
+        "function": "minecraft:filtered",
+        "item_filter": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "unbreaking",
+                "levels": 1
+              }
+            ]
+          }
+        },
+        "modifier": {
+          "function": "minecraft:set_damage",
+          "damage": -0.008,
+          "add": true,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "function": "minecraft:filtered",
+        "item_filter": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "unbreaking",
+                "levels": 2
+              }
+            ]
+          }
+        },
+        "modifier": {
+          "function": "minecraft:set_damage",
+          "damage": -0.008,
+          "add": true,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.66
+            }
+          ]
+        }
+      },{
+        "function": "minecraft:filtered",
+        "item_filter": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "unbreaking",
+                "levels": 3
+              }
+            ]
+          }
+        },
+        "modifier": {
+          "function": "minecraft:set_damage",
+          "damage": -0.008,
+          "add": true,
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.75
+            }
+          ]
+        }
+      }
+    ]
+  }
