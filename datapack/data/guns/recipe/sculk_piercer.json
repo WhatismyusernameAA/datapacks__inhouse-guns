@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        " E ",
+        "B  "
+    ],
+    "key": {
+        "#": "minecraft:sculk_catalyst",
+        "E": "minecraft:echo_shard",
+        "B": "minecraft:bone_block"
+    },
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "components": {
+            "rarity": "uncommon",
+            "item_name": "\"Sculk Piercer\"",
+            "lore": [
+                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
+                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Attachment. Hold weapon in offhand to attach.\"}"
+            ],
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "inhouse_guns:sculk_piercer"
+                ]
+            },
+            "minecraft:custom_data": "{custom_item:\"inhouse_guns:sculk_piercer\"}"
+        }
+    }
+}

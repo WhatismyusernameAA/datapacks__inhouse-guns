@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#minecraft:illager",
+        "minecraft:villager",
+        "minecraft:ravager",
+        "minecraft:iron_golem"
+    ]
+}

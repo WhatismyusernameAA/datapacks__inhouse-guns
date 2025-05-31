@@ -80,6 +80,27 @@
                     "type": "minecraft:model",
                     "model": "inhouse_guns:item/screwdriver"
                 }
+            },
+            {
+                "when": "inhouse_guns:undead_charm",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/undead_charm"
+                }
+            },
+            {
+                "when": "inhouse_guns:amber_charm",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/amber_charm"
+                }
+            },
+            {
+                "when": "inhouse_guns:sculk_piercer",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/sculk_piercer"
+                }
             }
         ],
         "fallback": {

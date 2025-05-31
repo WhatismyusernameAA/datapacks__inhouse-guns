@@ -1,5 +1,6 @@
 execute if predicate guns:item/attachments/has_silencer run function guns:guns/scattergun/scattergun_fire_silenced
-execute unless predicate guns:item/attachments/has_silencer run function guns:guns/scattergun/scattergun_fire
+execute if predicate guns:item/attachments/has_sculk_piercer run function guns:guns/scattergun/scattergun_fire_sonic
+execute unless predicate guns:item/attachments/has_sculk_piercer unless predicate guns:item/attachments/has_silencer run function guns:guns/scattergun/scattergun_fire
 
 # remove bullet from inventory
 clear @s command_block[custom_data={custom_item:"inhouse_guns:gunpowder_shot"}] 1

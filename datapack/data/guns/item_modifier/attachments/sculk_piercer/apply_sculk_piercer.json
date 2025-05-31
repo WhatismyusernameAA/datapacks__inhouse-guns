@@ -1,0 +1,33 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "attachment" : {
+                    "type" : "inhouse_guns:sculk_piercer"
+                }
+            }
+        },
+        {
+            "function": "set_lore",
+            "lore": [
+                {"color":"blue","italic": false,"text":"Attachments: Sculk Piercer"}
+            ],
+            "mode": "replace_section",
+            "offset": 1,
+            "size": 1
+        },
+        {
+            "function": "set_custom_model_data",
+            "strings": {
+                "mode": "replace_section",
+                "values": [
+                    "inhouse_guns:sculk_piercer"
+                ],
+                "offset": 2,
+                "size": 1
+            }
+        }
+    ]
+}

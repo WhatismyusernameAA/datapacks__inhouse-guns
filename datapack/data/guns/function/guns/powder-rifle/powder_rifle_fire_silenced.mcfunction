@@ -5,8 +5,6 @@ playsound minecraft:entity.shulker.shoot player @a ~ ~1 ~ 0.5 2
 
 # set maximum range
 scoreboard players set @s gwp__gun-range 80
-execute if predicate guns:item/attachments/has_long_barrel run scoreboard players set @s gwp__gun-range 120
-
 
 # add "did shot" tag, and then set raycast;
 tag @s add gwp__shot
