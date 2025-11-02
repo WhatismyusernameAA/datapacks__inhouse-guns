@@ -6,32 +6,14 @@
         "water",
         "lava",
         
-        
-        "red_carpet",
-        "blue_carpet",
-        "gray_carpet",
-        "lime_carpet",
-        "moss_carpet",
-        "pink_carpet",
-        "black_carpet",
-        "brown_carpet",
-        "cyan_carpet",
-        "green_carpet",
-        "white_carpet",
-        "orange_carpet",
-        "purple_carpet",
-        "yellow_carpet",
-        "magenta_carpet",
-        "light_blue_carpet",
-        "light_gray_carpet",
+        "#wool_carpets",
 
         "snow",
-
         "glow_lichen",
         "vine",
 
         "sculk_vein",
 
-        "chain"
+        "#minecraft:chains"
     ]
 }

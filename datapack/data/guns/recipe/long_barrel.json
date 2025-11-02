@@ -13,10 +13,18 @@
         "count": 1,
         "components": {
             "rarity": "common",
-            "item_name": "\"Extended Barrel\"",
+            "item_name": "Extended Barrel",
             "lore": [
-                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Attachment. Hold weapon in offhand to attach.\"}"
+                {
+                    "color": "blue",
+                    "italic": true,
+                    "text": "Inhouse Guns"
+                },
+                {
+                    "color": "dark_gray",
+                    "italic": false,
+                    "text": "Attachment. Hold weapon in offhand to attach."
+                }
             ],
             "minecraft:custom_model_data": {
                 "strings": [

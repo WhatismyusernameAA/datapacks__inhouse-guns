@@ -23,12 +23,12 @@
         ]
       },
       "minecraft:custom_data": "{custom_item:\"inhouse_guns:powder_rifle\"}",
-      "minecraft:item_name": "\"Powder Rifle\"",
+      "minecraft:item_name": "Powder Rifle",
       "rarity": "uncommon",
       "minecraft:lore": [
-        "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-        "{\"color\":\"dark_gray\",\"text\":\"Sniping's a good job, mate.\"}",
-        "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Right click to aim, right click again to shoot.\"}"
+        {"color":"blue","italic":true,"text":"Inhouse Guns"},
+        {"color":"dark_gray","text":"\"Sniping's a good job, mate.\""},
+        {"color":"dark_gray","italic":false,"text":"Right click to aim, right click again to shoot."}
       ],
       "minecraft:max_damage": 486
     }

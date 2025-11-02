@@ -25,7 +25,8 @@
         "snow",
         "glow_lichen",
         "sculk_vein",
-        "chain",
+
+        "#minecraft:chains",
 
         "#minecraft:rails",
         "minecraft:target",

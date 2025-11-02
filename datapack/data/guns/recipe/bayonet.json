@@ -14,10 +14,18 @@
         "count": 1,
         "components": {
             "rarity": "common",
-            "item_name": "\"Bayonet\"",
+            "item_name": "Bayonet",
             "lore": [
-                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Attachment. Hold weapon in offhand to attach.\"}"
+                {
+                    "color": "blue",
+                    "italic": true,
+                    "text": "Inhouse Guns"
+                },
+                {
+                    "color": "dark_gray",
+                    "italic": false,
+                    "text": "Attachment. Hold weapon in offhand to attach."
+                }
             ],
             "minecraft:custom_model_data": {
                 "strings": [
@@ -25,24 +33,22 @@
                 ]
             },
             "minecraft:custom_data": "{custom_item:\"inhouse_guns:bayonet\"}",
-            "attribute_modifiers": {
-                "modifiers": [
-                    {
-                        "id": "minecraft:bayonet_mod",
-                        "slot": "mainhand",
-                        "operation": "add_value",
-                        "amount": 5,
-                        "type": "minecraft:attack_damage"
-                    },
-                    {
-                        "id": "minecraft:bayonet_mod",
-                        "slot": "mainhand",
-                        "operation": "add_value",
-                        "amount": -2.4,
-                        "type": "attack_speed"
-                    }
-                ]
-            }
+            "attribute_modifiers": [
+                {
+                    "id": "minecraft:bayonet_mod",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": 5,
+                    "type": "minecraft:attack_damage"
+                },
+                {
+                    "id": "minecraft:bayonet_mod",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": -2.4,
+                    "type": "attack_speed"
+                }
+            ]
         }
     }
 }

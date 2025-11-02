@@ -21,13 +21,13 @@
           "_idle"
         ]
       },
-        "minecraft:custom_data": "{custom_item:\"inhouse_guns:scattergun\"}",
-        "minecraft:item_name": "\"Revolver\"",
+        "minecraft:custom_data": "{custom_item:\"inhouse_guns:revolver\"}",
+        "minecraft:item_name": "Revolver",
         "rarity": "uncommon",
         "minecraft:lore": [
-          "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-          "{\"color\":\"dark_gray\",\"text\":\"Hands in the sky, boy..\"}",
-          "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Right click to aim, right click again to shoot.\"}"
+          {"color":"blue","italic":true,"text":"Inhouse Guns"},
+          {"color":"dark_gray","text":"\"Hands in the sky, boy..\""},
+          {"color":"dark_gray","italic":false,"text":"Right click to aim, right click again to shoot."}
         ],
         "minecraft:max_damage": 380
       }

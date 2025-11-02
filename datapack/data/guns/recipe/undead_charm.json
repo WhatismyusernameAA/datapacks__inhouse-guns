@@ -9,16 +9,24 @@
         "R": "minecraft:repeating_command_block",
         "c": "minecraft:string",
         "L": "minecraft:skeleton_skull"
-    },  
+    },
     "result": {
         "id": "minecraft:carrot_on_a_stick",
         "count": 1,
         "components": {
             "rarity": "uncommon",
-            "item_name": "\"Undead Charm\"",
+            "item_name": "Undead Charm",
             "lore": [
-                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Attachment. Hold weapon in offhand to attach.\"}"
+                {
+                    "color": "blue",
+                    "italic": true,
+                    "text": "Inhouse Guns"
+                },
+                {
+                    "color": "dark_gray",
+                    "italic": false,
+                    "text": "Attachment. Hold weapon in offhand to attach."
+                }
             ],
             "minecraft:custom_model_data": {
                 "strings": [

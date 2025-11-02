@@ -21,12 +21,12 @@
         ]
       },
         "minecraft:custom_data": "{custom_item:\"inhouse_guns:scattergun\"}",
-        "minecraft:item_name": "\"Powder Scattergun\"",
+        "minecraft:item_name": "Powder Scattergun",
         "rarity": "uncommon",
         "minecraft:lore": [
-          "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-          "{\"color\":\"dark_gray\",\"text\":\"This.. is my boomstick!\"}",
-          "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Right click to aim, right click again to shoot.\"}"
+          {"color":"blue","italic":true,"text":"Inhouse Guns"},
+          {"color":"dark_gray","text":"\"This.. is my boomstick!\""},
+          {"color":"dark_gray","italic":false,"text":"Right click to aim, right click again to shoot."}
         ],
         "minecraft:max_damage": 486
       }

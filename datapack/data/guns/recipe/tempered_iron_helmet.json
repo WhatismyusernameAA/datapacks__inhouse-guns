@@ -41,10 +41,10 @@
                         "slot": "head"
                     }
                 ],
-            "minecraft:item_name": "\"Tempered Iron Helmet\"",
+            "minecraft:item_name": "Tempered Iron Helmet",
             "rarity": "common",
             "minecraft:lore": [
-                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}"
+                {"color":"blue","italic":true,"text":"Inhouse Guns"}
             ],
             "minecraft:max_damage": 240
         }

@@ -1,0 +1,4 @@
+execute if predicate guns:item/attachments/holding_screwdriver run function guns:items/modifications/screwdriver/apply_attachment
+execute if predicate guns:item/attachments/holding_silencer run function guns:items/modifications/silencer/apply_attachment
+execute if predicate guns:item/attachments/holding_undead_charm run function guns:items/modifications/undead_charm/apply_attachment
+execute if predicate guns:item/attachments/holding_amber_charm run function guns:items/modifications/amber_charm/apply_attachment

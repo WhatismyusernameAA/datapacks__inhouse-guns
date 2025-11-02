@@ -13,10 +13,10 @@
         "count": 1,
         "components": {
             "rarity": "common",
-            "item_name": "\"Screwdriver\"",
+            "item_name": "Screwdriver",
             "lore": [
-                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Used to remove attachments. Hold weapon in offhand to use.\"}"
+                {"color":"blue","italic":true,"text":"Inhouse Guns"},
+                {"color":"dark_gray","italic":false,"text":"Used to remove attachments. Hold weapon in offhand to use."}
             ],
             "minecraft:custom_model_data": {
                 "strings": [

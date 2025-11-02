@@ -15,10 +15,10 @@
         "count": 1,
         "components": {
             "rarity": "uncommon",
-            "item_name": "\"Amber Charm\"",
+            "item_name": "Amber Charm",
             "lore": [
-                "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-                "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Attachment. Hold weapon in offhand to attach.\"}"
+                {"color":"blue","italic":true,"text":"Inhouse Guns"},
+                {"color":"dark_gray","italic":false,"text":"Attachment. Hold weapon in offhand to attach."}
             ],
             "minecraft:custom_model_data": {
                 "strings": [

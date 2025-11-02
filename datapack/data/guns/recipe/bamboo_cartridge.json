@@ -26,11 +26,11 @@
         "sound": "minecraft:block.note_block.hat",
         "has_consume_particles": false
       },
-      "minecraft:item_name": "\"Bamboo Cartridge\"",
+      "minecraft:item_name": "Bamboo Cartridge",
       "minecraft:lore": [
-        "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-        "{\"color\":\"dark_gray\",\"text\":\"\\\"Do not use if you value your fingers.\\\"\"}",
-        "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Hold use to fire. Single shot only.\"}"
+        {"color":"blue","italic":true,"text":"Inhouse Guns"},
+        {"color":"dark_gray","text":"\"Do not use if you value your fingers.\""},
+        {"color":"dark_gray","italic":false,"text":"Hold use to fire. Single shot only."}
       ],
       "minecraft:rarity": "common"
     }

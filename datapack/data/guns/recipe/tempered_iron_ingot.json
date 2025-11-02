@@ -7,10 +7,10 @@
     "result": {
       "id": "minecraft:repeating_command_block",
       "components": {
-        "item_name": "\"Tempered Iron Ingot\"",
+        "item_name": "Tempered Iron Ingot",
         "minecraft:lore": [
-          "{\"color\":\"blue\",\"italic\":true,\"text\":\"Inhouse Guns\"}",
-          "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Could be strong enough to contain bursts of energy..?\"}"
+          {"color":"blue","italic":true,"text":"Inhouse Guns"},
+          {"color":"dark_gray","italic":false,"text":"Could be strong enough to contain bursts of energy..?"}
         ],
         "minecraft:custom_model_data": {
           "strings": [
