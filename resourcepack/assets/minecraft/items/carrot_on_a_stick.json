@@ -54,6 +54,31 @@
                 }
             },
             {
+                "when": "inhouse_guns:revolver",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "cases": [
+                        {
+                            "when": "_idle",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/guns/revolver_raised"
+                            }
+                        },
+                        {
+                            "when": "_aiming",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/guns/revolver_aiming"
+                            }
+                        }
+                    ]
+                }
+            },
+            
+            {
                 "when": "inhouse_guns:long_barrel",
                 "model": {
                     "type": "minecraft:model",
