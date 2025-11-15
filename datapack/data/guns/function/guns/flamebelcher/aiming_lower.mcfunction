@@ -1,0 +1,2 @@
+execute if predicate guns:item/guns/flamebelcher/holding unless predicate guns:item/guns/flamebelcher/holding_offhand run item modify entity @s weapon.mainhand guns:item/guns/flamebelcher/idle
+execute if predicate guns:item/guns/flamebelcher/holding_offhand run item modify entity @s weapon.offhand guns:item/guns/flamebelcher/idle

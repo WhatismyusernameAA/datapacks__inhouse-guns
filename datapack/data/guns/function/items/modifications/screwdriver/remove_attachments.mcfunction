@@ -4,5 +4,7 @@ execute if predicate guns:item/attachments/has_bayonet run function guns:items/m
 execute if predicate guns:item/attachments/has_undead_charm run function guns:items/modifications/undead_charm/give_attachment
 execute if predicate guns:item/attachments/has_amber_charm run function guns:items/modifications/amber_charm/give_attachment
 execute if predicate guns:item/attachments/has_sculk_piercer run function guns:items/modifications/sculk_piercer/give_attachment
+execute if predicate guns:item/attachments/has_momentum_channel run function guns:items/modifications/momentum_channel/give_attachment
+
 
 item modify entity @s weapon.offhand guns:attachments/clear_attachments

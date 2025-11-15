@@ -1,0 +1,39 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "attachment": {
+                                    "type": "inhouse_guns:momentum_channel"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "attachment": {
+                                    "type": "inhouse_guns:momentum_channel"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

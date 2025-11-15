@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:rarity": "common",
+                                "minecraft:item_name": "Gunpowder Shot",
+                                "minecraft:lore": [
+                                    {
+                                        "color": "blue",
+                                        "italic": true,
+                                        "text": "Inhouse Guns"
+                                    },
+                                    {
+                                        "color": "dark_gray",
+                                        "italic": false,
+                                        "text": "Used in gunpowder-propelled firearms."
+                                    }
+                                ],
+                                "minecraft:custom_model_data": {
+                                    "strings": [
+                                        "inhouse_guns:gunpowder_shot"
+                                    ]
+                                },
+                                "minecraft:custom_data": "{custom_item:\"inhouse_guns:gunpowder_shot\"}",
+                                "!minecraft:block_state": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

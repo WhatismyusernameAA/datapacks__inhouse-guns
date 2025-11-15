@@ -24,6 +24,13 @@
                     "model": "inhouse_guns:item/gunpowder_slug"
                 }
             },
+                {
+                "when": "inhouse_guns:blaze_charge",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "inhouse_guns:item/blaze_charge"
+                }
+            },
             {
                 "when": "inhouse_guns:bamboo_cartridge",
                 "model": {

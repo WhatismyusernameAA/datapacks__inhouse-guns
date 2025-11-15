@@ -1,7 +1,5 @@
-execute unless predicate guns:item/attachments/has_long_barrel run function guns:guns/main/aim_zoom
-execute if predicate guns:item/attachments/has_long_barrel run function guns:guns/scattergun/scattergun_aim_zoom
-
-scoreboard players set @s gwp__gun-cooldown 15
+function guns:guns/main/aim_nozoom
+scoreboard players set @s gwp__gun-cooldown 12
 
 ## EFFECTS
 playsound minecraft:item.crossbow.quick_charge_3 player @s ~ ~ ~ 1 0.9

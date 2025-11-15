@@ -200,6 +200,50 @@
               "add": false
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "guns:items/scattergun",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.9
+              },
+              "add": false
+            },
+            {
+              "function": "enchant_randomly",
+              "options": [
+                "minecraft:unbreaking"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "guns:items/revolver",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              },
+              "add": false
+            },
+            {
+              "function": "enchant_randomly",
+              "options": [
+                "minecraft:unbreaking"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -221,6 +265,36 @@
                 "min": 5,
                 "max": 7
               }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "guns:items/gunpowder_shot",
+          "functions": [
+           {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 18
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "guns:items/gunpowder_round",
+          "functions": [
+           {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 18
+              },
+              "add": false
             }
           ]
         },

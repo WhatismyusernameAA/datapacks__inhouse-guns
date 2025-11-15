@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": "{custom_item:\"inhouse_guns:tempered_iron_helmet\"}",
+                                "minecraft:item_model": "inhouse_guns:tempered_iron_helmet",
+                                "equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "item.armor.equip_netherite",
+                                    "asset_id": "inhouse_guns:tempered_iron"
+                                },
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "inhouse_guns:tempered_iron_helmet_kbp",
+                                        "type": "explosion_knockback_resistance",
+                                        "amount": 0.5,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    },
+                                    {
+                                        "id": "inhouse_guns:tempered_iron_helmet_tough",
+                                        "type": "armor_toughness",
+                                        "amount": 2,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    },
+                                    {
+                                        "id": "inhouse_guns:tempered_iron_helmet",
+                                        "type": "armor",
+                                        "amount": 2,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    }
+                                ],
+                                "minecraft:item_name": "Tempered Iron Helmet",
+                                "rarity": "common",
+                                "minecraft:lore": [
+                                    {
+                                        "color": "blue",
+                                        "italic": true,
+                                        "text": "Inhouse Guns"
+                                    }
+                                ],
+                                "minecraft:max_damage": 240
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "guns:items/gunpowder_shot"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "guns:items/gunpowder_round"
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 6,
+                "min": 2
+            }
+        }
+    ]
+}

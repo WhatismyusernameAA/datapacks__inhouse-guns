@@ -1,6 +1,5 @@
 execute if predicate guns:item/attachments/has_silencer run function guns:guns/revolver/firing_effects_silenced
-execute if predicate guns:item/attachments/has_sculk_piercer run function guns:guns/revolver/firing_effects_sonic
-execute unless predicate guns:item/attachments/has_sculk_piercer unless predicate guns:item/attachments/has_silencer run function guns:guns/revolver/firing_effects
+execute unless predicate guns:item/attachments/has_silencer run function guns:guns/revolver/firing_effects
 
 # remove bullet from inventory
 clear @s command_block[custom_data={custom_item:"inhouse_guns:gunpowder_round"}] 1
@@ -13,5 +12,5 @@ execute if predicate guns:item/guns/revolver/broken run function guns:guns/revol
 
 #return to aiming
 tag @s remove gwp__aiming-ready
-function guns:guns/revolver/aiming
+function guns:guns/revolver/aiming_select
 

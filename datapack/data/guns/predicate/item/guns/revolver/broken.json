@@ -9,7 +9,7 @@
             "offhand": {
               "items": "minecraft:carrot_on_a_stick",
               "components": {
-                "minecraft:custom_data": "{custom_item:\"inhouse_guns:revolver\"}",
+                "minecraft:custom_data": "{custom_item:\"inhouse_guns:flamebelcher\"}",
                 "minecraft:damage": 380
               }
             }
@@ -24,7 +24,7 @@
             "mainhand": {
               "items": "minecraft:carrot_on_a_stick",
               "components": {
-                "minecraft:custom_data": "{custom_item:\"inhouse_guns:revolver\"}",
+                "minecraft:custom_data": "{custom_item:\"inhouse_guns:flamebelcher\"}",
                 "minecraft:damage": 380
               }
             }

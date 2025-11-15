@@ -1,0 +1,1 @@
+give @s command_block[rarity="common",item_name='Blaze Charge',lore=[{"color":"blue","italic":true,"text":"Inhouse Guns"},{"color":"dark_gray","italic":false,"text":"Used in incindiary weapons."}],custom_model_data={strings:["inhouse_guns:blaze_charge"]},custom_data={custom_item:"inhouse_guns:blaze_charge"},block_state={}] 1

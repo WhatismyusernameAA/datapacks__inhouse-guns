@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "strings": [
+                                        "inhouse_guns:revolver",
+                                        "_idle"
+                                    ]
+                                },
+                                "minecraft:repairable": {
+                                    "items": "minecraft:repeating_command_block"
+                                },
+                                "minecraft:custom_data": "{custom_item:\"inhouse_guns:revolver\"}",
+                                "minecraft:item_name": "Revolver",
+                                "rarity": "uncommon",
+                                "minecraft:lore": [
+                                    {
+                                        "color": "blue",
+                                        "italic": true,
+                                        "text": "Inhouse Guns"
+                                    },
+                                    {
+                                        "color": "dark_gray",
+                                        "text": "\"Hands in the sky, boy..\""
+                                    },
+                                    {
+                                        "color": "dark_gray",
+                                        "italic": false,
+                                        "text": "Right click to aim, right click again to shoot."
+                                    }
+                                ],
+                                "minecraft:max_damage": 380
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

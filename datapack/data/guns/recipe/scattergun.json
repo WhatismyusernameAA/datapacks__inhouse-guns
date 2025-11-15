@@ -1,34 +1,48 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "#RR",
-      "QD "
-    ],
-    "key": {
-      "#": "minecraft:tripwire_hook",
-      "R": "minecraft:repeating_command_block",
-      "Q": "minecraft:quartz",
-      "D": "#minecraft:planks"
-    },
-    "result": {
-      "id": "minecraft:carrot_on_a_stick",
-      "count": 1,
-      "components": {
-        "minecraft:custom_model_data": {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#RR",
+    "QD "
+  ],
+  "key": {
+    "#": "minecraft:tripwire_hook",
+    "R": "minecraft:repeating_command_block",
+    "Q": "minecraft:quartz",
+    "D": "#minecraft:planks"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": {
         "strings": [
           "inhouse_guns:scattergun",
           "_idle"
         ]
       },
-        "minecraft:custom_data": "{custom_item:\"inhouse_guns:scattergun\"}",
-        "minecraft:item_name": "Powder Scattergun",
-        "rarity": "uncommon",
-        "minecraft:lore": [
-          {"color":"blue","italic":true,"text":"Inhouse Guns"},
-          {"color":"dark_gray","text":"\"This.. is my boomstick!\""},
-          {"color":"dark_gray","italic":false,"text":"Right click to aim, right click again to shoot."}
-        ],
-        "minecraft:max_damage": 486
-      }
+      "minecraft:repairable": {
+        "items": "minecraft:repeating_command_block"
+      },
+      "minecraft:custom_data": "{custom_item:\"inhouse_guns:scattergun\"}",
+      "minecraft:item_name": "Powder Scattergun",
+      "rarity": "uncommon",
+      "minecraft:lore": [
+        {
+          "color": "blue",
+          "italic": true,
+          "text": "Inhouse Guns"
+        },
+        {
+          "color": "dark_gray",
+          "text": "\"This.. is my boomstick!\""
+        },
+        {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Right click to aim, right click again to shoot."
+        }
+      ],
+      "minecraft:max_damage": 486
     }
   }
+}

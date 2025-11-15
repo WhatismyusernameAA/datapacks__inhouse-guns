@@ -6,6 +6,27 @@
       "bonus_rolls": 0,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "value": "guns:items/scattergun",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.9
+              },
+              "add": false
+            },
+            {
+              "function": "enchant_randomly",
+              "options": [
+                "minecraft:unbreaking"
+              ]
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
           "weight": 6,
@@ -396,7 +417,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain",
+          "name": "minecraft:iron_chain",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -495,6 +516,36 @@
                 "type": "minecraft:uniform",
                 "min": 4,
                 "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "guns:items/gunpowder_shot",
+          "functions": [
+           {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 18
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "guns:items/gunpowder_round",
+          "functions": [
+           {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 18
               },
               "add": false
             }

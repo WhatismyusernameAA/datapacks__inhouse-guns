@@ -1,2 +1,2 @@
-execute as @a[scores={gwp__gun-cooldown=-10..},predicate=!guns:item/attachments/holding_attachment] at @s run function guns:guns/main/has_bullet_check
-execute as @a[predicate=guns:item/attachments/holding_attachment] at @s run function guns:items/modifications/main/gun_select
+execute as @s[scores={gwp__gun-cooldown=-10..},predicate=!guns:item/attachments/holding_attachment] at @s run function guns:guns/main/has_bullet_check
+execute as @s[predicate=guns:item/attachments/holding_attachment] at @s run function guns:items/modifications/main/gun_select

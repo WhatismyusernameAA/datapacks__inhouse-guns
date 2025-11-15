@@ -13,4 +13,4 @@ playsound minecraft:entity.generic.big_fall player @a ~ ~1 ~ 1 1.5
 playsound minecraft:entity.generic.explode player @a ~ ~1 ~ 0.4 1.8
 playsound minecraft:entity.shulker.shoot player @a ~ ~1 ~ 1 2
 
-particle minecraft:campfire_cosy_smoke ^ ^1.35 ^1.2 0 0 0 0.05 5 force
+particle minecraft:campfire_cosy_smoke ^ ^1.35 ^1.2 0 0 0 0.05 1 normal

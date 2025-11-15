@@ -8,7 +8,7 @@ execute positioned ~-0.3 ~-0.3 ~-0.3 as @e[type=#guns:revolver_parriable_project
 scoreboard players remove @s gwp__gun-range 1
 
 # PARTICLES
-particle minecraft:smoke ~ ~ ~ 0.01 0.01 0.01 0.01 1 normal
+particle minecraft:smoke ~ ~ ~ 0.01 0.01 0.01 0.01 1 force
 
 
 # INTERACTIONS W. BLOCKS

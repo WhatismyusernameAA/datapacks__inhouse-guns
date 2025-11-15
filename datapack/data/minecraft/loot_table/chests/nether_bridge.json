@@ -23,6 +23,21 @@
           ]
         },
         {
+          "type": "minecraft:loot_table",
+          "value": "guns:items/powder_rifle",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "uniform",
+                "max": 0.8,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 5,

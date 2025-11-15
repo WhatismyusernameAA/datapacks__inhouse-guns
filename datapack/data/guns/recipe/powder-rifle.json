@@ -22,6 +22,9 @@
           "_idle"
         ]
       },
+      "minecraft:repairable": {
+        "items": "minecraft:repeating_command_block"
+      },
       "minecraft:custom_data": "{custom_item:\"inhouse_guns:powder_rifle\"}",
       "minecraft:item_name": "Powder Rifle",
       "rarity": "uncommon",
