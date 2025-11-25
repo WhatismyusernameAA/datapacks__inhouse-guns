@@ -23,4 +23,4 @@ data modify entity @s ignited set value 1b
 particle explosion ~ ~1.35 ~ 0.1 0.1 0.1 1 1 normal
 
 playsound minecraft:item.trident.hit player @a ~ ~1 ~ 1 1
-playsound minecraft:item.axe.strip player @a ~ ~1 ~ 1 1
+playsound minecraft:entity.player.attack.strong player @a ~ ~1 ~ 1 1

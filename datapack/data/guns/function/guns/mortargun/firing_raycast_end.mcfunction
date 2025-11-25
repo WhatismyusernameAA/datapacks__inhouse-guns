@@ -1,0 +1,1 @@
+summon creeper ~ ~ ~ {Fuse:0,ExplosionRadius:2,NoAI:1b,CustomName:"Mortargun"}

@@ -18,3 +18,4 @@ execute if block ~ ~ ~ minecraft:target run function guns:guns/scattergun/scatte
 
 fill ~ ~ ~ ~ ~ ~ air replace #guns:gun_breakable
 execute if score @s gwp__gun-range matches 0.. positioned ^ ^ ^1 if block ~ ~ ~ #guns:air_like_groups run function guns:guns/revolver/firing_raycast
+execute positioned ^ ^ ^1 unless block ~ ~ ~ #guns:air_like_groups run function guns:guns/revolver/firing_raycast_end

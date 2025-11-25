@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:adventure/shoot_arrow",
+    "parent": "minecraft:adventure/sniper_duel",
     "criteria": {
       "killed_skeleton": {
         "conditions": {
@@ -8,10 +8,10 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "#guns:aerial_creatures",
+                "type": "minecraft:skeleton",
                 "distance": {
-                  "y": {
-                    "min": 10
+                  "horizontal": {
+                    "min": 100
                   }
                 }
               }
@@ -21,7 +21,7 @@
             "tags": [
               {
                 "expected": true,
-                "id": "guns:from_ranged_weapon"
+                "id": "guns:from_raycast"
               }
             ]
           }
@@ -31,15 +31,22 @@
     },
     "display": {
       "description": {
-        "text": "Gun down a creature of the sky."
+        "text": "Kill a skeleton from at least 100 meters away."
       },
       "frame": "challenge",
       "icon": {
+        "components": {
+          "minecraft:custom_model_data": {
+            "strings": [
+              "inhouse_guns:gunpowder_round"
+            ]
+          }
+        },
         "count": 1,
-        "id": "minecraft:phantom_membrane"
+        "id": "minecraft:command_block"
       },
       "title": {
-        "text": "Hunting Season"
+        "text": "Sniper Duel (Reprise)"
       }
     },
     "requirements": [

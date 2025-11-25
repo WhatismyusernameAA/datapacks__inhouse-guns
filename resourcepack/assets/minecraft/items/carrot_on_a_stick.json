@@ -54,6 +54,30 @@
                 }
             },
             {
+                "when": "inhouse_guns:mortargun",
+                "model": {
+                    "type": "select",
+                    "property": "custom_model_data",
+                    "index": 1,
+                    "cases": [
+                        {
+                            "when": "_idle",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/guns/mortargun_raised"
+                            }
+                        },
+                        {
+                            "when": "_aiming",
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/guns/mortargun_aiming"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
                 "when": "inhouse_guns:revolver",
                 "model": {
                     "type": "select",

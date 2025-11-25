@@ -11,7 +11,7 @@
                 "type": "minecraft:skeleton",
                 "distance": {
                   "horizontal": {
-                    "min": 70
+                    "min": 90
                   }
                 }
               }
@@ -31,7 +31,7 @@
     },
     "display": {
       "description": {
-        "text": "Kill a skeleton from at least 70 meters away."
+        "text": "Kill a skeleton from at least 90 meters away."
       },
       "frame": "challenge",
       "icon": {

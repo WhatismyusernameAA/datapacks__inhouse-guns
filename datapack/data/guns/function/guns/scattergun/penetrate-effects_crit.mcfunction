@@ -1,4 +1,4 @@
-damage @s 18 guns:gun_shot by @p[tag=gwp__shot]
+damage @s 22.5 guns:gun_shot by @p[tag=gwp__shot]
 playsound minecraft:entity.player.attack.crit player @a ~ ~ ~ 1 0.1
 
 

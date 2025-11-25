@@ -8,3 +8,4 @@ execute if predicate guns:item/powder_rifle/powder_rifle_holding run function gu
 execute if predicate guns:item/scattergun/scattergun_holding run function guns:guns/scattergun/scattergun_lower
 execute if predicate guns:item/guns/revolver/holding run function guns:guns/revolver/aiming_lower
 execute if predicate guns:item/guns/flamebelcher/holding run function guns:guns/flamebelcher/aiming_lower
+execute if predicate guns:item/guns/mortargun/holding run function guns:guns/mortargun/aiming_lower

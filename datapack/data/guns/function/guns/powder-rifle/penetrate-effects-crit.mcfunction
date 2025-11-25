@@ -1,4 +1,4 @@
-damage @s 16 guns:gun_shot by @p[tag=gwp__shot]
+damage @s 18 guns:gun_shot by @p[tag=gwp__shot]
 playsound minecraft:entity.arrow.hit_player player @p[tag=gwp__shot] ~ ~1 ~ 10 0.5
 playsound minecraft:entity.arrow.hit player @p[tag=gwp__shot] ~ ~1 ~ 10 0.5
 

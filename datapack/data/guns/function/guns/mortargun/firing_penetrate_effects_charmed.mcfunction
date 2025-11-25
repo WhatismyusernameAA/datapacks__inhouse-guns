@@ -1,6 +1,6 @@
 # makes me wonder, does this add on top of base damage or is it nullified (since it's lower) for non-armored entities?
 damage @s 8 magic by @p[tag=gwp__shot]
-damage @s 17 guns:gun_shot by @p[tag=gwp__shot]
+damage @s 23 guns:gun_shot by @p[tag=gwp__shot]
 
 playsound minecraft:block.amethyst_cluster.break player @p[tag=gwp__shot] ~ ~1 ~ 5 1.2
 

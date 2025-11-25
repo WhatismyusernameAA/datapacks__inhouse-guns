@@ -20,5 +20,5 @@ scoreboard players set @s gwp__gun-range 40
 
 # add "did shot" tag, and then set raycast;
 tag @s add gwp__shot
-execute at @s positioned ^ ^ ^1.4 anchored eyes run function guns:guns/powder-rifle/raycast_sonic
+execute at @s anchored eyes positioned ^ ^ ^1.4 run function guns:guns/powder-rifle/raycast_sonic
 tag @s remove gwp__shot

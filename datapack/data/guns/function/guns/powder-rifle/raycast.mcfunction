@@ -13,3 +13,4 @@ execute if block ~ ~ ~ minecraft:tnt run function guns:guns/powder-rifle/powder_
 execute if block ~ ~ ~ minecraft:target run function guns:guns/powder-rifle/powder_rifle_interact_targetblock
 execute if block ~ ~ ~ #guns:gun_breakable run fill ~ ~ ~ ~ ~ ~ air destroy
 execute if score @s gwp__gun-range matches 0.. positioned ^ ^ ^0.8 if block ~ ~ ~ #guns:air_like_groups run function guns:guns/powder-rifle/raycast
+execute positioned ^ ^ ^1 unless block ~ ~ ~ #guns:air_like_groups run function guns:guns/powder-rifle/firing_raycast_end

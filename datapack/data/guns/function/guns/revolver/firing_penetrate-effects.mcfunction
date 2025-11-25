@@ -1,4 +1,4 @@
-damage @s 10 guns:gun_shot by @p[tag=gwp__shot]
+damage @s 12 guns:gun_shot by @p[tag=gwp__shot]
 
 # apply charmed damage
 execute if entity @s[type=#minecraft:undead] if entity @p[tag=gwp__shot,predicate=guns:item/attachments/has_undead_charm] run function guns:guns/revolver/firing_penetrate_effects_charmed
