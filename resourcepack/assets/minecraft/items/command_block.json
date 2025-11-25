@@ -50,6 +50,26 @@
                         "model": "inhouse_guns:item/bamboo_cartridge"
                     }
                 }
+            },
+            {
+                "when": "inhouse_guns:jeeper_bomb",
+                "model": {
+                    "type": "minecraft:range_dispatch",
+                    "property": "minecraft:use_duration",
+                    "entries": [
+                        {
+                            "threshold": 0.1,
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "inhouse_guns:item/jeeper_bomb_use"
+                            }
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "inhouse_guns:item/jeeper_bomb"
+                    }
+                }
             }
         ],
         "fallback": {

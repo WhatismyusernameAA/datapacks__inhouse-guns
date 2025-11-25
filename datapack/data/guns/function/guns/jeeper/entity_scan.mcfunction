@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=inhouse_guns__jeeper_entity,tag=!_init] at @s run function guns:guns/jeeper/entity/entity_settle_check

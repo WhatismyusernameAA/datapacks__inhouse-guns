@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "used_pistol": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items" : "command_block",
+                    "components": {
+                        "custom_data": "{custom_item:\"inhouse_guns:jeeper_bomb\"}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "guns:guns/jeeper/throw"
+    }
+}

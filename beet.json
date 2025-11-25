@@ -2,7 +2,7 @@
     "name": "Inhouse Guns",
     "author": "TCORInHouse",
     "description": "developing extra bombastic features for minecraft.",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "data_pack": {
         "load": ["datapack"],
         "pack_format": 88,

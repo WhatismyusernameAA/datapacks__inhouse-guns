@@ -1,0 +1,2 @@
+execute if entity @s[tag=inhouse_guns__jeeper_entity__ready] run function guns:guns/jeeper/entity/entity_checks
+execute if entity @s[tag=!inhouse_guns__jeeper_entity__ready] run function guns:guns/jeeper/entity/ready
